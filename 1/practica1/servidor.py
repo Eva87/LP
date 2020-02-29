@@ -1,25 +1,25 @@
 import socket
 
-def conexion(client):
-    petition = client.recv(16)
-    print("Received: %s" % petition)
-    print("sending data back to the client.")
-    client.send(petition)
-
-
-ip = "0.0.0.0"
-puerto = 52816
 servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print("starting up on localhost port: %d " %puerto)
-
-servidor.bind((ip, puerto))
+ip = 'localhost'
+port = 52816
+print("starting up on %s port %d" % (ip, port))
+servidor.bind((ip,port))
 servidor.listen(1)
-print("Waiting for a connection:")
+i = 0
 
 while True:
-    cliente, direccion = servidor.accept()
-    print("connection from ('%s',%d)" % (direccion[0], direccion[1]))
-    conexion = target=conexion, args=(cliente,)
-    conexion.start()
-
-print("no more data from ('%s', %d)" % (direccion[0], direccion[1]))
+    if i == 0:
+        print("Waiting for a connection.")
+        cliente, direccion = servidor.accept()
+        print("Conection from: %s %d" % (direccion[0], direccion[1]))
+    respuesta = cliente.recv(16)
+    if respuesta:
+        print("Received: %s" % respuesta)
+        print("Sending data back to the client")
+        cliente.send(respuesta)
+        i+=1
+    else:
+        print("no more data from: %s %d" %(direccion[0], direccion[1]))
+        cliente.close()
+        i=0

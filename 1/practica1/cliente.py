@@ -1,15 +1,22 @@
 import socket
 
-servidor = "localhost"
-puerto = 33060
-mensaje = "This is the message it will be repeated."
-mensaje = mensaje.encode()
+cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-Cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-Cliente.connect((servidor, puerto))
-print("Sending %s" % mensaje)
+ip = 'localhost'
+puerto = 52816
 
-while True:
-    Cliente.send(mensaje)
-    respuesta = Cliente.recv(16)
-    print ("received: %s" %respuesta)
+mensaje = "This is the message. It will be repeated."
+
+print("connect to %s port %d" %(ip,puerto))
+cliente.connect((ip, puerto))
+print("Sending: %s" %mensaje)
+cliente.send(bytes(mensaje, "utf-8"))
+
+iterador = 0
+while iterador < len(mensaje):
+    respuesta = cliente.recv(16)
+    iterador += len(respuesta)
+    print("Received: %s" %respuesta)
+
+print("Closing socket")
+cliente.close()
