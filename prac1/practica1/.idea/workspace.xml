@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62615df9-abf6-4a09-9a00-8b59c3b1be2e" name="Default Changelist" comment="" />
+    <list default="true" id="a7f16df9-bbba-4a22-bed5-b1565bc19924" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +15,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1YD7vYNgYRUWX0w0tS1iYLdtGFW" />
+  <component name="ProjectId" id="1Y1XCb26Ajr7FbJXbsJvYPjCnoF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,22 +26,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../prac2" />
   </component>
-  <component name="RunManager" selected="Python.cliente">
-    <configuration name="cliente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="1" />
+  <component name="RunManager" selected="Python.cliente (1)">
+    <configuration name="cliente (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practica1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica1/cliente.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cliente.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cliente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cliente" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -51,18 +72,18 @@
       <method v="2" />
     </configuration>
     <configuration name="servidor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="1" />
+      <module name="practica1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practica1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica1/servidor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/servidor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cliente (1)" />
         <item itemvalue="Python.cliente" />
         <item itemvalue="Python.servidor" />
       </list>
@@ -95,38 +117,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62615df9-abf6-4a09-9a00-8b59c3b1be2e" name="Default Changelist" comment="" />
-      <created>1582465542033</created>
+      <changelist id="a7f16df9-bbba-4a22-bed5-b1565bc19924" name="Default Changelist" comment="" />
+      <created>1582110947395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582465542033</updated>
+      <updated>1582110947395</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582713179941">
+    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582110971640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582713179941" />
-    <state width="1308" height="218" key="GridCell.Tab.0.bottom" timestamp="1583012902243">
+    <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582110971640" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1585752455229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583012902243" />
-    <state width="1308" height="218" key="GridCell.Tab.0.center" timestamp="1583012902243">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585752455229" />
+    <state width="1345" height="156" key="GridCell.Tab.0.bottom" timestamp="1585752458030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583012902243" />
-    <state width="1308" height="218" key="GridCell.Tab.0.left" timestamp="1583012902243">
+    <state width="1345" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585752458030" />
+    <state width="1345" height="156" key="GridCell.Tab.0.center" timestamp="1585752458030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583012902243" />
-    <state width="1308" height="218" key="GridCell.Tab.0.right" timestamp="1583012902243">
+    <state width="1345" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585752458030" />
+    <state width="1345" height="156" key="GridCell.Tab.0.left" timestamp="1585752458030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583012902243" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582996929684">
+    <state width="1345" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585752458030" />
+    <state width="1345" height="156" key="GridCell.Tab.0.right" timestamp="1585752458030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582996929684" />
+    <state width="1345" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585752458030" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582222076296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582222076296" />
   </component>
 </project>
